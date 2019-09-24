@@ -1,5 +1,5 @@
 # google-homepage 
-[visit The project](https://pysabry.github.io/google-homepage/index.html)
+Visit [The project](https://pysabry.github.io/google-homepage/index.html)
 
 This is a micro-project about "Google homepage" using HTML and CSS 
 
