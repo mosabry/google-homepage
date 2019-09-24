@@ -1,0 +1,191 @@
+
+/********* Navigation ********/
+
+nav {
+
+    top: 0;
+    width: 100%;
+    position: fixed;
+
+}
+
+.header {
+
+    padding: 4px;
+    list-style-type: none;
+    margin: 17px 0px 0px 0px;
+    text-align: center;
+
+}
+
+li {
+
+    display: inline;
+    padding: 4px;
+    margin: 0px;
+
+}
+
+.nav, .right-footer {
+
+    float: right;
+    padding: 5px;
+    color: gray;
+    margin: 0px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+
+}
+
+.nav:hover, .right-footer:hover {
+
+    text-decoration: underline;
+
+}
+
+#signin {
+
+    background-color: #4584ef;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+    color: #ffff;
+    padding: 6px 12px;
+    margin: 0px 30px 0px 0px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#signin:hover {
+
+    box-shadow: 0 0.4px 0.4px 0 rgba(0,0,0,0.24), 0 0.4px 0.5px 0 rgba(0,0,0,0.19);
+
+}
+
+
+/************ Serach ***********/
+
+img {
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /***** to center the image *****/
+
+}
+  
+form {
+
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%); /***** to center search bar *****/
+
+}
+
+#search {
+
+    margin: 60px 10px 10px 10px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    background-color: white;
+
+}
+
+#search:hover {
+
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    
+}
+
+.google-search /*Google Search Button*/{
+
+    background-color: #f4f4f4;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    color: gray;
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+    top: 71%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+
+}
+
+.lucky-btn /*Feeling Lucky Button*/{
+
+    background-color: #f4f4f4;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    color: gray;
+    padding: 10px;
+    margin: 5px;
+    position: absolute;
+    top: 71%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+
+}
+
+.google-search:hover {
+
+    border: 1px solid gray;
+
+}
+  
+.lucky-btn:hover {
+
+    border: 1px solid gray;
+
+}
+
+/****** Footer ******/
+
+footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+}
+
+.left-footer {
+
+    float: left;
+    padding: 5px;
+    color: gray;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+
+}
+
+.left-footer:hover {
+
+    text-decoration: underline;
+
+}
+
+.footer {
+
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    background-color: #f2f2f2;
+    border: 1px solid #e7e7e7;
+    padding: 8px 10px 12px 10px;
+    text-align: center;
+
+  }
+  
